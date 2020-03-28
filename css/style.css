@@ -79,9 +79,10 @@
     }
     
     div#apresentacao {
-        width: 500px;
+        width: 460px;
         margin: 140px auto;
         height: 500px;
+        text-align: center;
     }
     
     article.autor div#apresentacao p,

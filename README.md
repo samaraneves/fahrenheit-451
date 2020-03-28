@@ -17,10 +17,10 @@ Fora este detalhe, o resumo é a base do desenvolvimento front-end nas tecnologi
 Afinal de contas, pensei em realizar um teste técnico sem antes testar a criação de uma interface.
 
 # Cores e Design
-Behance também serviu muito de apoio. Por lá há milhares designs - como esta profissão é importante hoje em dia, para engajar os clicks - e durante a minha leitura sobre a obra, encontrei uma criação postada por Vincent Roché e que lembrou rapidamente sobre Fahrenheit. Indiretamente, meu obrigado sobre as belas exposições.
+Behance também serviu muito de apoio. Por lá há milhares de designs - como esta profissão é importante hoje em dia, para engajar os clicks - e durante a minha leitura sobre a obra, encontrei uma criação postada por Vincent Roché e que lembrou rapidamente sobre Fahrenheit. Indiretamente, meu obrigado sobre as belas exposições.
 
 # Instalação
-Para instalá-lo e verificar como ficou o layout, é simples: Basta baixar o diretório, e abrir o conteúdo HTML no navegador. Não forcei outras maneira de visualizá-lo pois, foi um teste técnico com ênfase no HTML. 
+Para instalá-lo e verificar como ficou o layout, é simples: Basta baixar o diretório, e abrir o conteúdo HTML no navegador. Não forcei outras maneiras de visualizá-lo pois, foi um teste técnico com ênfase no HTML. 
 
 
     

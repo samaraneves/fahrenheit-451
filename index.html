@@ -74,14 +74,28 @@
             </div>
         </article>
     </section>
-    <section id="#entre-em-contato" class="col-12">
+    <section id="entre-em-contato" class="col-12">
         <article class="col-12">
             <div id="conteudo-contato">
                 <h2 class="col-12">E-book gratuito</h2>
                 <p>Cadastre-se e obtenha um exemplar da obra ficcional de Bradbury!</p>
             </div>
-            <form action="" method="post" class="col-12">
-
+            <form name="CadastroEbook" method="post" class="form-group" onSubmit="ValidFormulario(this)">
+                <div class="row">
+                    <div class="col">
+                        <label for="nome" class="col-sm-2 col-form-label">Nome</label>
+                        <input type="text" class="form-control" id="nome" placeholder="Insira seu nome...">
+                    </div>
+                    <div class="col">
+                        <label for="email" class="col-sm-2 col-form-label">E-mail</label>
+                        <input type="email" class="form-control" id="email" placeholder="Insira seu e-mail...">
+                    </div>
+                </div>
+                <div class="form-group row">
+                    <div class="col-sm-10">
+                        <button type="submit" class="btn btn-primary">Sign in</button>
+                    </div>
+                </div>
             </form>
         </article>
     </section>

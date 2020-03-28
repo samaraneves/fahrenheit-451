@@ -128,17 +128,7 @@
         color: #000;
     }
     
-    article.autor div#apresentacao h1 {
-        width: 410px;
-        margin: 20px auto;
-        font-family: Montserrat;
-        font-weight: bold;
-        text-transform: uppercase;
-        border-bottom: 7px solid #ea3732;
-        color: #000;
-    }
-    
-    article.rigth-livro div#apresentacao h1 {
+    article.rigth-livro div#apresentacao h2 {
         width: 410px;
         margin: 0 auto;
         font-family: Montserrat;
@@ -167,16 +157,27 @@
         font-weight: 700;
     }
     
-    section#sobre-autor article#conteudo-autor p {
-        width: 500px;
-        margin: 0 auto 20px auto;
-        padding: 30px;
-        box-sizing: border-box;
-        font-family: montserrat;
-        line-height: 30px;
+    section#sobre-autor article div {
+        width: 650px;
+        padding: 50px!important;
+        margin: 0 auto;
         text-align: center;
-        font-weight: 100;
+    }
+    
+    section#sobre-autor article div h1 {
+        font-family: Montserrat;
+        text-transform: uppercase;
+        font-weight: bold;
+        color: #000;
+        border-bottom: 7px solid #ea3732;
+    }
+    
+    section#sobre-autor article div p {
+        font-family: Montserrat;
         font-style: italic;
+        line-height: 30px;
+        font-weight: 200;
+        margin-top: 30px;
     }
     
     .btn-primary {

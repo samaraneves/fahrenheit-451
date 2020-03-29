@@ -31,6 +31,11 @@
         color: #fff!important;
     }
     
+    span.fa.fa-bars {
+        color: #fff;
+        font-size: 33px;
+    }
+    
     li.nav-item a {
         font-family: 'Montserrat';
         font-size: 12.5px;
@@ -84,7 +89,6 @@
     
     article.autor div#apresentacao p,
     article div.frase-livro p {
-        width: 500px;
         margin: 25px auto;
         font-family: Montserrat;
         font-size: 16.5px;
@@ -143,6 +147,15 @@
         font-family: Montserrat;
         font-style: italic;
         font-weight: 200;
+    }
+    
+    div#apresentacao p {
+        margin: 20px auto!important;
+    }
+    
+    section#sobre-autor article div h1,
+    section#sobre-autor article div p {
+        margin: 20px auto!important;
     }
     
     article div.frase-livro p b {

@@ -1,301 +1,414 @@
-    html {
-        overflow-x: hidden!important;
-    }
-    
-    a,
-    a:hover {
-        text-transform: none!important;
-        color: none!important;
-    }
-    
-    .col-12 {
-        padding: 0!important;
-    }
-    
-    .container-fluid,
-    .container-lg,
-    .container-md,
-    .container-sm,
-    .container-xl {
-        width: 100%;
-        padding: 0;
-        margin: 0;
-    }
-    
-    .bg-light {
-        background-color: #000!important;
-        padding: 30px;
-    }
-    
-    a.navbar-brand:hover {
-        color: #fff!important;
-    }
-    
-    span.fa.fa-bars {
-        color: #fff;
-        font-size: 33px;
-    }
-    
-    li.nav-item a {
-        font-family: 'Montserrat';
-        font-size: 12.5px;
-        font-weight: 500;
-        color: #fff!important;
-        margin: 10px;
-    }
-    
-    li.nav-item a:hover {
-        color: #fff!important;
-        padding-bottom: 5px;
-        border-bottom: 2px solid #ea4533;
-    }
-    
-    .navbar-light .navbar-brand {
-        color: #ffffff;
-        font-family: 'Montserrat';
-        text-transform: uppercase!important;
-        font-weight: 100;
-    }
-    
-    .navbar-light .navbar-brand b {
-        font-weight: 900;
-    }
-    
-    #header-principal {
-        background-image: url('../images/fahrenheit.jpg');
-        height: 730px;
-        background-position: top;
-        background-size: cover;
-        width: 100%;
-        padding: 0;
-        margin: 0;
-    }
-    /*CONTEÚDO*/
-    
-    article.autor div#apresentacao p {
-        text-align: center;
-    }
-    
-    article.autor div#apresentacao {
-        margin: 50px auto;
-        height: 500px;
-    }
-    
-    div#apresentacao {
-        margin: 140px auto;
-        height: 500px;
-        text-align: center;
-    }
-    
-    article.autor div#apresentacao p,
-    article div.frase-livro p {
-        margin: 25px auto;
-        font-family: Montserrat;
-        font-size: 16.5px;
-        color: #000;
-        line-height: 36px;
-        font-weight: 200;
-        font-style: italic;
-    }
-    
-    article.left-livro {
-        float: left;
-        background-image: url(../images/fahrenheit-livro.jpg);
-        background-size: cover;
-        height: 750px;
-    }
-    
-    article.rigth-livro {
-        float: right;
-        height: 750px;
-        background: #000;
-        color: #fcfcfc;
-    }
-    
-    article.autor {
-        background: #ffffff;
-        color: #000000;
-    }
-    
-    section#sobre-autor h2 {
-        margin: 20px auto;
-        font-family: Montserrat;
-        font-weight: bold;
-        text-transform: uppercase;
-        border-bottom: 7px solid #ea3732;
-        color: #000;
-    }
-    
-    article.rigth-livro div#apresentacao h2 {
-        margin: 0 auto;
-        font-family: Montserrat;
-        font-weight: bold;
-        text-transform: uppercase;
-        border-bottom: 7px solid #ea3732;
-        color: #fcfcfc;
-    }
-    
-    article.rigth-livro div#apresentacao p,
-    article.left-autor div#apresentacao p {
-        padding: 20px;
-        box-sizing: border-box;
-        margin-top: 10px;
-        height: 415px;
-        font-size: 15px;
-        line-height: 30px;
-        color: #fcfcfc;
-        font-family: Montserrat;
-        font-style: italic;
-        font-weight: 200;
-    }
-    
-    div#apresentacao p {
-        margin: 20px auto!important;
-    }
-    
-    section#sobre-autor article div h1,
-    section#sobre-autor article div p {
-        margin: 20px auto!important;
-    }
-    
-    article div.frase-livro p b {
-        font-weight: 700;
-    }
-    
-    section#sobre-autor article div {
-        padding: 50px!important;
-        margin: 0 auto;
-        text-align: center;
-    }
-    
-    section#sobre-autor article div h1 {
-        font-family: Montserrat;
-        text-transform: uppercase;
-        font-weight: bold;
-        color: #000;
-        border-bottom: 7px solid #ea3732;
-    }
-    
-    section#sobre-autor article div p {
-        font-family: Montserrat;
-        font-style: italic;
-        line-height: 30px;
-        font-weight: 200;
-        margin-top: 30px;
-    }
-    
-    .btn-primary {
-        color: #fff;
-        width: 100%;
-        background-color: #000;
-        border-color: #000;
-        padding: 50px;
-        font-family: Montserrat;
-        font-weight: bold;
-        text-transform: uppercase;
-        font-size: 40px;
-        letter-spacing: 1.2px;
-        border-radius: 0px!important;
-    }
-    
-    .btn-primary:hover {
-        color: #fff;
-        background-color: #000!important;
-        border-color: #000!important;
-    }
-    
-    .btn-primary:not(:disabled):not(.disabled).active,
-    .btn-primary:not(:disabled):not(.disabled):active,
-    .show>.btn-primary.dropdown-toggle,
-    .btn-primary.focus,
-    .btn-primary:focus {
-        color: #fff;
-        background-color: #000!important;
-        border-color: #000!important;
-    }
-    
-    div#conteudo-contato {
-        background: #000;
-        padding: 60px;
-    }
-    
-    div#conteudo-contato h2 {
-        color: #fff;
-        font-family: Montserrat;
-        text-transform: uppercase;
-        font-weight: bold;
-        letter-spacing: 1.5px;
-        margin: 25px auto;
-        padding-bottom: 10px!important;
-        border-bottom: 5px solid #ea3732;
-        text-align: center;
-    }
-    
-    div#conteudo-contato p {
-        margin: 10px auto;
-        font-family: Montserrat;
-        font-size: 14px;
-        text-align: center;
-        color: #fff;
-        font-weight: 100;
-        font-style: italic;
-    }
-    
-    div.left-contato {
-        float: left;
-    }
-    
-    div.right-contato {
-        float: right;
-    }
-    
-    form.form-group {
-        margin: 0 auto;
-        padding: 50px;
-    }
-    
-    form.form-group label {
-        font-family: Montserrat;
-        font-size: 14px;
-        color: #000;
-        font-weight: 400;
-    }
-    
-    .form-group.row div button {
-        margin-left: 15px;
-    }
-    
-    form.form-group div div input {
-        border-radius: 0px!important;
-        border: 1px solid #000;
-    }
-    
-    form.form-group div div input::placeholder {
-        color: #6c757d;
-        font-family: Montserrat;
-        font-size: 13px;
-        font-style: italic;
-    }
-    
-    .form-control:focus,
-    .btn-primary:not(:disabled):not(.disabled).active:focus,
-    .btn-primary:not(:disabled):not(.disabled):active:focus,
-    .show>.btn-primary.dropdown-toggle:focus {
-        background-color: #fff;
-        outline: 0;
-        border: 0px!important;
-        box-shadow: 0 0 0 0.2rem rgba(234, 55, 50, .25)!important;
-    }
-    
-    form.form-group div.form-group.row div button {
-        width: 200px;
-        font-size: 12px;
-        padding: 13px;
-        margin-top: 30px;
-    }
-    /**RODAPÉ**/
-    
-    footer {
-        background: #21201f;
-        height: 100px;
-    }
+            html {
+                overflow-x: hidden!important;
+            }
+            
+            a,
+            a:hover {
+                text-transform: none!important;
+                color: none!important;
+            }
+            
+            .col-12 {
+                padding: 0!important;
+            }
+            
+            .container-fluid,
+            .container-lg,
+            .container-md,
+            .container-sm,
+            .container-xl {
+                width: 100%;
+                padding: 0;
+                margin: 0;
+            }
+            
+            .bg-light {
+                background-color: #000!important;
+                padding: 30px;
+            }
+            
+            a.navbar-brand:hover {
+                color: #fff!important;
+            }
+            
+            span.fa.fa-bars {
+                color: #fff;
+                font-size: 33px;
+            }
+            
+            li.nav-item a {
+                font-family: 'Montserrat';
+                font-size: 12.5px;
+                font-weight: 500;
+                color: #fff!important;
+                margin: 10px;
+            }
+            
+            li.nav-item a:hover {
+                color: #fff!important;
+                padding-bottom: 5px;
+                border-bottom: 2px solid #ea4533;
+            }
+            
+            .navbar-light .navbar-brand {
+                color: #ffffff;
+                font-family: 'Montserrat';
+                text-transform: uppercase!important;
+                font-weight: 100;
+            }
+            
+            .navbar-light .navbar-brand b {
+                font-weight: 900;
+            }
+            
+            #header-principal {
+                background-image: url('../images/fahrenheit.jpg');
+                height: 730px;
+                background-position: top;
+                background-size: cover;
+                width: 100%;
+                padding: 0;
+                margin: 0;
+            }
+            /*CONTEÚDO*/
+            
+            article.autor div#apresentacao p {
+                text-align: center;
+            }
+            
+            article.autor div#apresentacao {
+                margin: 50px auto;
+                height: 500px;
+            }
+            
+            div#apresentacao {
+                margin: 140px auto;
+                height: 500px;
+                text-align: center;
+            }
+            
+            article.autor div#apresentacao p,
+            article div.frase-livro p {
+                margin: 25px auto;
+                font-family: Montserrat;
+                font-size: 16.5px;
+                color: #000;
+                line-height: 36px;
+                font-weight: 200;
+                font-style: italic;
+            }
+            
+            article.left-livro {
+                float: left;
+                background-image: url(../images/fahrenheit-livro.jpg);
+                background-size: cover;
+                height: 750px;
+            }
+            
+            article.rigth-livro {
+                float: right;
+                height: 750px;
+                background: #000;
+                color: #fcfcfc;
+            }
+            
+            article.autor {
+                background: #ffffff;
+                color: #000000;
+            }
+            
+            section#sobre-autor h2 {
+                margin: 20px auto;
+                font-family: Montserrat;
+                font-weight: bold;
+                text-transform: uppercase;
+                border-bottom: 7px solid #ea3732;
+                color: #000;
+            }
+            
+            article.rigth-livro div#apresentacao h2 {
+                margin: 0 auto;
+                font-family: Montserrat;
+                font-weight: bold;
+                text-transform: uppercase;
+                border-bottom: 7px solid #ea3732;
+                color: #fcfcfc;
+            }
+            
+            article.rigth-livro div#apresentacao p,
+            article.left-autor div#apresentacao p {
+                padding: 20px;
+                box-sizing: border-box;
+                margin-top: 10px;
+                height: 415px;
+                font-size: 15px;
+                line-height: 30px;
+                color: #fcfcfc;
+                font-family: Montserrat;
+                font-style: italic;
+                font-weight: 200;
+            }
+            
+            div#apresentacao p {
+                margin: 20px auto!important;
+            }
+            
+            section#sobre-autor article div h1,
+            section#sobre-autor article div p {
+                margin: 20px auto!important;
+            }
+            
+            article div.frase-livro p b {
+                font-weight: 700;
+            }
+            
+            section#sobre-autor article div {
+                padding: 50px!important;
+                margin: 0 auto;
+                text-align: center;
+            }
+            
+            section#sobre-autor article div h1 {
+                font-family: Montserrat;
+                text-transform: uppercase;
+                font-weight: bold;
+                color: #000;
+                border-bottom: 7px solid #ea3732;
+            }
+            
+            section#sobre-autor article div p {
+                font-family: Montserrat;
+                font-style: italic;
+                line-height: 30px;
+                font-weight: 200;
+                margin-top: 30px;
+            }
+            
+            .btn-primary {
+                color: #fff;
+                width: 100%;
+                background-color: #000;
+                border-color: #000;
+                padding: 50px;
+                font-family: Montserrat;
+                font-weight: bold;
+                text-transform: uppercase;
+                font-size: 40px;
+                letter-spacing: 1.2px;
+                border-radius: 0px!important;
+            }
+            
+            .btn-primary:hover {
+                color: #fff;
+                background-color: #000!important;
+                border-color: #000!important;
+            }
+            
+            .btn-primary:not(:disabled):not(.disabled).active,
+            .btn-primary:not(:disabled):not(.disabled):active,
+            .show>.btn-primary.dropdown-toggle,
+            .btn-primary.focus,
+            .btn-primary:focus {
+                color: #fff;
+                background-color: #000!important;
+                border-color: #000!important;
+            }
+            
+            div#conteudo-contato {
+                background: #000;
+                padding: 60px;
+            }
+            
+            div#conteudo-contato h2 {
+                color: #fff;
+                font-family: Montserrat;
+                text-transform: uppercase;
+                font-weight: bold;
+                letter-spacing: 1.5px;
+                margin: 25px auto;
+                padding-bottom: 10px!important;
+                border-bottom: 5px solid #ea3732;
+                text-align: center;
+            }
+            
+            div#conteudo-contato p {
+                margin: 10px auto;
+                font-family: Montserrat;
+                font-size: 14px;
+                text-align: center;
+                color: #fff;
+                font-weight: 100;
+                font-style: italic;
+            }
+            
+            div.left-contato {
+                float: left;
+            }
+            
+            div.right-contato {
+                float: right;
+            }
+            
+            form.form-group {
+                margin: 0 auto;
+                padding: 50px;
+            }
+            
+            form.form-group label {
+                font-family: Montserrat;
+                font-size: 14px;
+                color: #000;
+                font-weight: 400;
+            }
+            
+            .form-group.row div button {
+                margin-left: 15px;
+            }
+            
+            form.form-group div div input {
+                border-radius: 0px!important;
+                border: 1px solid #000;
+            }
+            
+            form.form-group div div input::placeholder {
+                color: #6c757d;
+                font-family: Montserrat;
+                font-size: 13px;
+                font-style: italic;
+            }
+            
+            .form-control:focus,
+            .btn-primary:not(:disabled):not(.disabled).active:focus,
+            .btn-primary:not(:disabled):not(.disabled):active:focus,
+            .show>.btn-primary.dropdown-toggle:focus {
+                background-color: #fff;
+                outline: 0;
+                border: 0px!important;
+                box-shadow: 0 0 0 0.2rem rgba(234, 55, 50, .25)!important;
+            }
+            
+            form.form-group div.form-group.row div button {
+                width: 200px;
+                font-size: 12px;
+                padding: 13px;
+                margin-top: 30px;
+            }
+            
+            div#fundo-formulario {
+                background: url(../images/camada-formulario.jpg);
+                height: 600px;
+                background-size: cover;
+                background-position: bottom;
+            }
+            /**RODAPÉ**/
+            
+            footer {
+                background: #000;
+                height: 100px;
+            }
+            
+            aside#redes {
+                width: 150px;
+                height: 100%;
+                margin: 0 auto;
+                display: flex;
+                flex-direction: row;
+                align-items: center;
+            }
+            
+            a.fa.fa-linkedin,
+            a.fa.fa-github,
+            a.fa.fa-instagram {
+                color: #fff;
+                font-size: 20px;
+                padding: 10px;
+                border: 1px solid #fff;
+                margin: 0 auto;
+            }
+            
+            a.fa.fa-linkedin:hover,
+            a.fa.fa-github:hover,
+            a.fa.fa-instagram:hover {
+                text-decoration: none!important;
+            }
+            
+            @media screen and (max-width: 425px) {
+                article.autor div#apresentacao p,
+                article div.frase-livro p {
+                    font-size: 15.5px;
+                    padding: 50px!important;
+                    text-align: center;
+                }
+                article.rigth-livro {
+                    padding: 46px!important;
+                }
+                section#sobre-autor article div h1 {
+                    font-size: 38px;
+                }
+                section#sobre-fahrenheit button {
+                    width: 100%!important;
+                    font-size: 34px;
+                }
+                div#conteudo-contato h2 {
+                    font-size: 28px;
+                }
+                .btn-primary {
+                    width: 327px!important;
+                }
+            }
+            
+            @media screen and (max-width: 375px) {
+                #header-principal {
+                    background-position: right;
+                }
+                form.form-group div.form-group.row div button {
+                    width: 275px;
+                }
+                article.rigth-livro {
+                    padding: 30px!important;
+                }
+                .btn-primary {
+                    font-size: 28px;
+                }
+                section#sobre-autor article div h1 {
+                    font-size: 32px;
+                }
+                div.frase-livro {
+                    padding: 20px!important;
+                    text-align: center;
+                }
+                div#conteudo-contato h2 {
+                    font-size: 23px;
+                }
+            }
+            
+            @media screen and (max-width: 320px) {
+                #header-principal {
+                    background-position: right;
+                }
+                article.autor div#apresentacao p,
+                article div.frase-livro p {
+                    font-size: 14.5px;
+                    color: #000;
+                    text-align: center;
+                    padding: 20px!important;
+                }
+                article.rigth-livro {
+                    padding: 20px!important;
+                }
+                article.rigth-livro div#apresentacao h2 {
+                    font-size: 28px;
+                }
+                div#conteudo-contato h2 {
+                    font-size: 18px;
+                }
+                .btn-primary {
+                    font-size: 22px;
+                }
+                section#sobre-autor article div h1 {
+                    font-size: 26px;
+                }
+                form.form-group div.form-group.row div button {
+                    width: 220px!important;
+                }
+            }

@@ -23,6 +23,9 @@ Behance também serviu muito de apoio. Por lá há milhares de designs - como es
 Para instalá-lo e verificar como ficou o layout, é simples: Basta baixar o diretório, e abrir o conteúdo HTML no navegador. Não forcei outras maneiras de visualizá-lo pois, foi um teste técnico com ênfase no HTML. 
 
 
+![Captura de Tela 2020-03-28 às 13 32 29](https://user-images.githubusercontent.com/56901967/77839829-c8e81300-7156-11ea-8a29-918eb4d7aa6e.png)
+![Captura de Tela 2020-03-28 às 22 34 18](https://user-images.githubusercontent.com/56901967/77839838-d8675c00-7156-11ea-813f-ea2ce0943e52.png)
+
     
 
 

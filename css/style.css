@@ -332,7 +332,45 @@
                 text-decoration: none!important;
             }
             
+            @media screen and (max-width: 1024px) {
+                article.rigth-livro div#apresentacao h2 {
+                    font-size: 27px;
+                }
+                form div.row {
+                    width: 100%!important;
+                    display: flex!important;
+                    flex-direction: column!important;
+                }
+            }
+            
+            @media screen and (max-width: 768px) {
+                #header-principal {
+                    background-position: right;
+                }
+                article.rigth-livro div#apresentacao p {
+                    font-size: 11.9px
+                }
+                div#apresentacao {
+                    margin: 34px auto;
+                }
+                section#sobre-autor article div h1 {
+                    font-size: 39px;
+                }
+                div#conteudo-contato h2 {
+                    font-size: 30px;
+                }
+                form div.row {
+                    width: 100%!important;
+                    display: flex!important;
+                    flex-direction: column!important;
+                }
+            }
+            
             @media screen and (max-width: 425px) {
+                #header-principal {
+                    background-image: url(../images/fahrenheit.jpg);
+                    background-position: right;
+                }
                 article.autor div#apresentacao p,
                 article div.frase-livro p {
                     font-size: 15.5px;

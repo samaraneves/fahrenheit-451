@@ -1,7 +1,7 @@
 ![Captura de Tela 2020-03-28 às 13 22 15](https://user-images.githubusercontent.com/56901967/77828716-f0f65880-70fb-11ea-8d53-1dc1f2933693.png)
 
 ![GitHub All Releases](https://img.shields.io/github/downloads/samaraneves/fahrenheit-451/total)
-![GitHub top language](https://img.shields.io/github/languages/samaraneves/fahrenheit-451/total)
+![GitHub top language](https://img.shields.io/github/languages/top/samaraneves/fahrenheit-451/total)
 ![GitHub last commit](https://img.shields.io/github/last-commit/samaraneves/fahrenheit-451/total)
 
 # Fahrenheit 451

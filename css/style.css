@@ -331,6 +331,30 @@
             a.fa.fa-instagram:hover {
                 text-decoration: none!important;
             }
+            /**EFEITO PÁGINA**/
+            
+            [data-anime] {
+                opacity: 0;
+                /*Para os elementos da página sumirem enquanto a página for carregada*/
+                transition: 5s;
+                /*Se ocorrer animação, será em um tempo de até 0.3s*/
+            }
+            
+            [data-anime="left"] {
+                transform: translate(-70px, 0);
+                /*Empurra a caixa do elemento para -50px*/
+            }
+            
+            [data-anime="right"] {
+                transform: translate(70px, 0);
+                /*Empurra a caixa do elemento para 50px*/
+            }
+            
+            [data-anime].anime {
+                opacity: 1;
+                transform: translate(0, 0);
+                /*Ponto inicial a ser trabalhado via JS*/
+            }
             
             @media screen and (max-width: 1024px) {
                 article.rigth-livro div#apresentacao h2 {

@@ -1,5 +1,6 @@
 ![Captura de Tela 2020-03-28 às 13 22 15](https://user-images.githubusercontent.com/56901967/77828716-f0f65880-70fb-11ea-8d53-1dc1f2933693.png)
 
+
 # Fahrenheit 451
 Projeto pessoal inspirado na obra de mesmo nome publicado por Ray Bradbury no ano de 1953 e com as ilustrações do designer Vicent Roché. O layout possuí centralização nas cores quentes e de aspecto agressivo, combinando com a temática envolvente por volta do livro. 
   
@@ -22,6 +23,9 @@ Behance também serviu muito de apoio. Por lá há milhares de designs - como es
 # Instalação
 Para instalá-lo e verificar como ficou o layout, é simples: Basta baixar o diretório, e abrir o conteúdo HTML no navegador. Não forcei outras maneiras de visualizá-lo pois, foi um teste técnico com ênfase no HTML. 
 
+
+![Captura de Tela 2020-03-28 às 13 32 29](https://user-images.githubusercontent.com/56901967/77839829-c8e81300-7156-11ea-8a29-918eb4d7aa6e.png)
+![Captura de Tela 2020-03-28 às 22 34 18](https://user-images.githubusercontent.com/56901967/77839838-d8675c00-7156-11ea-813f-ea2ce0943e52.png)
 
     
 

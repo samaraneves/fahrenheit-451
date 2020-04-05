@@ -100,7 +100,7 @@
             
             article.left-livro {
                 float: left;
-                background-image: url(../images/fahrenheit-livro.jpg);
+                background-image: url(../images/left-livro.jpg);
                 background-size: cover;
                 height: 750px;
             }
@@ -300,6 +300,15 @@
                 background-size: cover;
                 background-position: bottom;
             }
+            
+            #camp-obrigatorio,
+            #camp-tipo {
+                display: none;
+                float: right;
+                font-family: Montserrat;
+                font-size: 11.5px;
+                color: #ea3732;
+            }
             /**RODAPÉ**/
             
             footer {
@@ -330,30 +339,6 @@
             a.fa.fa-github:hover,
             a.fa.fa-instagram:hover {
                 text-decoration: none!important;
-            }
-            /**EFEITO PÁGINA**/
-            
-            [data-anime] {
-                opacity: 0;
-                /*Para os elementos da página sumirem enquanto a página for carregada*/
-                transition: 5s;
-                /*Se ocorrer animação, será em um tempo de até 0.3s*/
-            }
-            
-            [data-anime="left"] {
-                transform: translate(-70px, 0);
-                /*Empurra a caixa do elemento para -50px*/
-            }
-            
-            [data-anime="right"] {
-                transform: translate(70px, 0);
-                /*Empurra a caixa do elemento para 50px*/
-            }
-            
-            [data-anime].anime {
-                opacity: 1;
-                transform: translate(0, 0);
-                /*Ponto inicial a ser trabalhado via JS*/
             }
             
             @media screen and (max-width: 1024px) {
@@ -424,7 +409,7 @@
                     background-position: right;
                 }
                 form.form-group div.form-group.row div button {
-                    width: 275px;
+                    width: 246px!important;
                 }
                 article.rigth-livro {
                     padding: 30px!important;
@@ -471,6 +456,11 @@
                     font-size: 26px;
                 }
                 form.form-group div.form-group.row div button {
-                    width: 220px!important;
+                    width: 189px!important;
+                }
+                footer {
+                    display: flex;
+                    align-items: center;
+                    text-align: center;
                 }
             }

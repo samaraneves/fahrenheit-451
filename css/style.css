@@ -301,8 +301,8 @@
                 background-position: bottom;
             }
             
-            #camp-obrigatorio,
-            #camp-tipo {
+            .camp-obrigatorio,
+            .camp-tipo {
                 display: none;
                 float: right;
                 font-family: Montserrat;
